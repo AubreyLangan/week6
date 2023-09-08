@@ -1,0 +1,21 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "week6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "week6"
+  },
+  "keywords": [
+    "war"
+  ],
+  "author": "aubrey langan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.8"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./path/to/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha">
+      <p><a href="./week6.html">Index</a></p>
+    </div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+
+    <script src="./path/to/mocha.js"></script>
+    <script src="./path/to/chai.js"></script>
+    <script src="week6.js"></script>
+    <script>
+      mocha.setup('bdd')
+    </script>
+    <script src="week6tests.js"></script>
+    <script>
+      mocha.run()
+    </script>
+  </body>
+</html>
